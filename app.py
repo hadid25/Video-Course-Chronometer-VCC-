@@ -5,7 +5,7 @@ class App(customtkinter.CTk):
         super().__init__()
 
         self.title("Video Course Chronometer")
-        self.minsize(400,400)
+        self.minsize(500,500)
 
 
 
@@ -13,4 +13,3 @@ if __name__ == "__main__":
     app = App()
     app.mainloop()
 
-    
